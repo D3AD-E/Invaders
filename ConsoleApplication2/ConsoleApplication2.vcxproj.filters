@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{6b544f74-d61e-4633-9f5c-16553b8d7d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResManager">
+      <UniqueIdentifier>{a518228d-47f7-4640-8c6e-dbfa4c442087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{703d71f6-1457-438f-8fa1-6fd93bd2826f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Invader.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="InvaderControl.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="RManager.h">
+      <Filter>ResManager</Filter>
+    </ClInclude>
+    <ClInclude Include="RHolder.h">
+      <Filter>ResManager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyToggle.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationRenderer.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Collidable.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrier.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Invader.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="InvaderControl.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="RHolder.cpp">
+      <Filter>ResManager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyToggle.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationRenderer.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Collidable.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Barrier.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
